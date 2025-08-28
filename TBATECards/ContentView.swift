@@ -2,22 +2,20 @@ import SwiftUI
 
 struct ContentView: View {
     
-    let listaDog = [
-        CardView(dog: dog1),
-        CardView(dog: dog2),
-        CardView(dog: dog3),
-        CardView(dog: dog4),
-        CardView(dog: dog5),
-        CardView(dog: dog6)
+    let charactersList = [
+        CardView(character: arthur),
+        CardView(character: sylvie),
+        CardView(character: tessia)
     ]
     
-    
     var body: some View {
-        List {
-            
-            ForEach(0..<listaDog.count, id:\.self) { i in
-                listaDog[i]
+        NavigationView {
+            List {
+                ForEach(0..<charactersList.count, id: \.self) { i in
+                    charactersList[i]
+                }
             }
+            .navigationTitle("TBATE Cards")
         }
     }
 }

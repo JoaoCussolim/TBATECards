@@ -2,38 +2,47 @@ import SwiftUI
 
 struct CardView: View {
     
-    let dog: Dog
+    let character: Character
     
     var body: some View {
         
-        VStack {
+        VStack(alignment: .leading) {
             
-            Image(dog.image)
+            Image(character.image)
                 .resizable()
-                .cornerRadius(0.3)
+                .aspectRatio(contentMode: .fit)
+            
+            Text(character.description)
+                .foregroundColor(.gray)
+                .padding([.leading, .trailing, .bottom], 10)
             
             HStack {
-                Text("\(dog.nome)")
+                Text(character.name)
                     .foregroundColor(.white)
                     .font(.system(size: 20.0))
                     .fontWeight(.bold)
-                    .frame(maxWidth: .infinity, alignment: .leading)
-                    .padding(10)
-                Text("\(dog.raca)")
+                
+                Spacer()
+                
+                Text(character.race)
                     .foregroundColor(.white)
-                    .font(.system(size: 20.0))
-                    .fontWeight(.bold)
-                    .frame(maxWidth: .infinity, alignment: .trailing)
-                    .padding(10)
+                    .font(.system(size: 16.0))
+                    .fontWeight(.semibold)
             }
+            .padding(12)
             .background(Color.purple)
         }
-        .frame(width: 300, height: 300)
+        .cornerRadius(10)
+        .overlay(
+            RoundedRectangle(cornerRadius: 10)
+                .stroke(Color.gray.opacity(0.5), lineWidth: 1)
+        )
+        .padding()
     }
 }
 
 struct CardView_Preview: PreviewProvider {
     static var previews: some View {
-        CardView(dog: dog1)
+        CardView(character: arthur)
     }
 }
