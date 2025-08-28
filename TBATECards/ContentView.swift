@@ -5,7 +5,8 @@ struct ContentView: View {
     let charactersList = [
         CardView(character: arthur),
         CardView(character: sylvie),
-        CardView(character: tessia)
+        CardView(character: tessia),
+        CardView(character: elijah)
     ]
     
     var body: some View {
