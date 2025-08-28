@@ -2,7 +2,9 @@ import SwiftUI
 
 struct CardView: View {
     
+    /// O personagem a ser exibido neste card.
     let character: Character
+    /// Controla o estado de exibição do card, alternando entre a forma normal e a alternativa.
     @State private var isFlipped = false
     
     var body: some View {
@@ -31,17 +33,17 @@ struct CardView: View {
                     .fontWeight(.semibold)
             }
             .padding(12)
-            .background(character.auraColor) // Usa a cor da aura como fundo
+            .background(character.auraColor)
         }
         .background(Color.white)
         .cornerRadius(10)
-        .shadow(color: character.auraColor, radius: 8, x: 0, y: 0) // Efeito de aura com sombra
+        .shadow(color: character.auraColor, radius: 8, x: 0, y: 0) /// Efeito de aura com sombra
         .overlay(
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.gray.opacity(0.5), lineWidth: 1)
         )
         .padding()
-        .onTapGesture {
+        .onTapGesture { /// Faz o clique alterar a forma do personagem para a alternativa, caso tenha uma
             if character.alternateForm != nil {
                 withAnimation(.spring()) {
                     isFlipped.toggle()

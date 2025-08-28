@@ -2,6 +2,7 @@ import SwiftUI
 
 struct ContentView: View {
     
+    /// Lista dos personagens criados anteriormente
     let charactersList = [
         CardView(character: arthur),
         CardView(character: sylvie),

@@ -1,22 +1,33 @@
 import SwiftUI
 
+/// Representa um único personagem do mangá "The Beginning After The End".
+///
+/// Cada personagem possui atributos básicos como nome, imagem, raça e descrição,
+/// além de uma cor de "aura" para estilização na interface.
 struct Character {
+    /// O nome completo do personagem. Ex: "Arthur Leywin".
     let name: String
+    /// O nome do arquivo de imagem localizado nos Assets.
     let image: String
+    /// A raça do personagem. Ex: "Humano", "Elfa".
     let race: String
+    /// Uma breve descrição sobre a história ou papel do personagem.
     let description: String
+    /// A cor utilizada para o efeito de aura e fundo do card.
     let auraColor: Color
 
-    // Propriedades para a forma alternativa
+    /// A forma alternativa do personagem, se houver. É opcional.
     var alternateForm: AlternateForm?
 }
 
+/// A forma alternativa, permitindo trocar informações do card ao alterar para outra forma do personagem
 struct AlternateForm {
     let name: String
     let image: String
 }
 
-// Exemplos de Personagens de "The Beginning After The End"
+/// Exemplos de Personagens de "The Beginning After The End"
+
 let arthur = Character(
     name: "Arthur Leywin",
     image: "arthur",
