@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		85329C402E60DAC100B6D01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85329C272E60DABF00B6D01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85329C2E2E60DABF00B6D01C;
+			remoteInfo = TBATECards;
+		};
+		85329C4A2E60DAC100B6D01C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 85329C272E60DABF00B6D01C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 85329C2E2E60DABF00B6D01C;
+			remoteInfo = TBATECards;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		85329C2F2E60DABF00B6D01C /* TBATECards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBATECards.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		85329C3F2E60DAC100B6D01C /* TBATECardsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBATECardsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		85329C492E60DAC100B6D01C /* TBATECardsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBATECardsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		85329C862E60DB2700B6D01C /* Exceptions for "TBATECardsUITests" folder in "TBATECards" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				"Preview Content/pastor.jpg",
+				"Preview Content/pequines.jpg",
+				"Preview Content/pibbleDormindo.jpg",
+				"Preview Content/pibbleMoskitao.webp",
+				"Preview Content/pibbleMoskitao2.jpg",
+				"Preview Content/Preview Assets.xcassets",
+				"Preview Content/shitzu.jpeg",
+				"Preview Content/york.jpeg",
+			);
+			target = 85329C2E2E60DABF00B6D01C /* TBATECards */;
+		};
+		85329C872E60DB2700B6D01C /* Exceptions for "TBATECardsUITests" folder in "TBATECardsUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+				"Preview Content/pastor.jpg",
+				"Preview Content/pequines.jpg",
+				"Preview Content/pibbleDormindo.jpg",
+				"Preview Content/pibbleMoskitao.webp",
+				"Preview Content/pibbleMoskitao2.jpg",
+				"Preview Content/Preview Assets.xcassets",
+				"Preview Content/shitzu.jpeg",
+				"Preview Content/york.jpeg",
+			);
+			target = 85329C482E60DAC100B6D01C /* TBATECardsUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		85329C312E60DABF00B6D01C /* TBATECards */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TBATECards;
+			sourceTree = "<group>";
+		};
+		85329C422E60DAC100B6D01C /* TBATECardsTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TBATECardsTests;
+			sourceTree = "<group>";
+		};
+		85329C4C2E60DAC100B6D01C /* TBATECardsUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				85329C862E60DB2700B6D01C /* Exceptions for "TBATECardsUITests" folder in "TBATECards" target */,
+				85329C872E60DB2700B6D01C /* Exceptions for "TBATECardsUITests" folder in "TBATECardsUITests" target */,
+			);
+			path = TBATECardsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85329C2C2E60DABF00B6D01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C3C2E60DAC100B6D01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C462E60DAC100B6D01C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85329C262E60DABF00B6D01C = {
+			isa = PBXGroup;
+			children = (
+				85329C312E60DABF00B6D01C /* TBATECards */,
+				85329C422E60DAC100B6D01C /* TBATECardsTests */,
+				85329C4C2E60DAC100B6D01C /* TBATECardsUITests */,
+				85329C302E60DABF00B6D01C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85329C302E60DABF00B6D01C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85329C2F2E60DABF00B6D01C /* TBATECards.app */,
+				85329C3F2E60DAC100B6D01C /* TBATECardsTests.xctest */,
+				85329C492E60DAC100B6D01C /* TBATECardsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85329C2E2E60DABF00B6D01C /* TBATECards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85329C532E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECards" */;
+			buildPhases = (
+				85329C2B2E60DABF00B6D01C /* Sources */,
+				85329C2C2E60DABF00B6D01C /* Frameworks */,
+				85329C2D2E60DABF00B6D01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				85329C312E60DABF00B6D01C /* TBATECards */,
+			);
+			name = TBATECards;
+			packageProductDependencies = (
+			);
+			productName = TBATECards;
+			productReference = 85329C2F2E60DABF00B6D01C /* TBATECards.app */;
+			productType = "com.apple.product-type.application";
+		};
+		85329C3E2E60DAC100B6D01C /* TBATECardsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85329C562E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECardsTests" */;
+			buildPhases = (
+				85329C3B2E60DAC100B6D01C /* Sources */,
+				85329C3C2E60DAC100B6D01C /* Frameworks */,
+				85329C3D2E60DAC100B6D01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85329C412E60DAC100B6D01C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85329C422E60DAC100B6D01C /* TBATECardsTests */,
+			);
+			name = TBATECardsTests;
+			packageProductDependencies = (
+			);
+			productName = TBATECardsTests;
+			productReference = 85329C3F2E60DAC100B6D01C /* TBATECardsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		85329C482E60DAC100B6D01C /* TBATECardsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85329C592E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECardsUITests" */;
+			buildPhases = (
+				85329C452E60DAC100B6D01C /* Sources */,
+				85329C462E60DAC100B6D01C /* Frameworks */,
+				85329C472E60DAC100B6D01C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				85329C4B2E60DAC100B6D01C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				85329C4C2E60DAC100B6D01C /* TBATECardsUITests */,
+			);
+			name = TBATECardsUITests;
+			packageProductDependencies = (
+			);
+			productName = TBATECardsUITests;
+			productReference = 85329C492E60DAC100B6D01C /* TBATECardsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85329C272E60DABF00B6D01C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					85329C2E2E60DABF00B6D01C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					85329C3E2E60DAC100B6D01C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 85329C2E2E60DABF00B6D01C;
+					};
+					85329C482E60DAC100B6D01C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 85329C2E2E60DABF00B6D01C;
+					};
+				};
+			};
+			buildConfigurationList = 85329C2A2E60DABF00B6D01C /* Build configuration list for PBXProject "TBATECards" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 85329C262E60DABF00B6D01C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 85329C302E60DABF00B6D01C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85329C2E2E60DABF00B6D01C /* TBATECards */,
+				85329C3E2E60DAC100B6D01C /* TBATECardsTests */,
+				85329C482E60DAC100B6D01C /* TBATECardsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85329C2D2E60DABF00B6D01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C3D2E60DAC100B6D01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C472E60DAC100B6D01C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85329C2B2E60DABF00B6D01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C3B2E60DAC100B6D01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		85329C452E60DAC100B6D01C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		85329C412E60DAC100B6D01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85329C2E2E60DABF00B6D01C /* TBATECards */;
+			targetProxy = 85329C402E60DAC100B6D01C /* PBXContainerItemProxy */;
+		};
+		85329C4B2E60DAC100B6D01C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 85329C2E2E60DABF00B6D01C /* TBATECards */;
+			targetProxy = 85329C4A2E60DAC100B6D01C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		85329C512E60DAC100B6D01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		85329C522E60DAC100B6D01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		85329C542E60DAC100B6D01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TBATECards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		85329C552E60DAC100B6D01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TBATECards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECards;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		85329C572E60DAC100B6D01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBATECards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TBATECards";
+			};
+			name = Debug;
+		};
+		85329C582E60DAC100B6D01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECardsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TBATECards.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TBATECards";
+			};
+			name = Release;
+		};
+		85329C5A2E60DAC100B6D01C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBATECards;
+			};
+			name = Debug;
+		};
+		85329C5B2E60DAC100B6D01C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Cotuca.TBATECardsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TBATECards;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85329C2A2E60DABF00B6D01C /* Build configuration list for PBXProject "TBATECards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85329C512E60DAC100B6D01C /* Debug */,
+				85329C522E60DAC100B6D01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85329C532E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85329C542E60DAC100B6D01C /* Debug */,
+				85329C552E60DAC100B6D01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85329C562E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECardsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85329C572E60DAC100B6D01C /* Debug */,
+				85329C582E60DAC100B6D01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85329C592E60DAC100B6D01C /* Build configuration list for PBXNativeTarget "TBATECardsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85329C5A2E60DAC100B6D01C /* Debug */,
+				85329C5B2E60DAC100B6D01C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85329C272E60DABF00B6D01C /* Project object */;
+}
