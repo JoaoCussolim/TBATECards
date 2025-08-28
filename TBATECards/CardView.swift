@@ -3,12 +3,13 @@ import SwiftUI
 struct CardView: View {
     
     let character: Character
+    @State private var isFlipped = false
     
     var body: some View {
         
         VStack(alignment: .leading) {
             
-            Image(character.image)
+            Image(isFlipped ? character.alternateForm?.image ?? character.image : character.image)
                 .resizable()
                 .aspectRatio(contentMode: .fit)
             
@@ -17,7 +18,7 @@ struct CardView: View {
                 .padding([.leading, .trailing, .bottom], 10)
             
             HStack {
-                Text(character.name)
+                Text(isFlipped ? character.alternateForm?.name ?? character.name : character.name)
                     .foregroundColor(.white)
                     .font(.system(size: 20.0))
                     .fontWeight(.bold)
@@ -30,14 +31,23 @@ struct CardView: View {
                     .fontWeight(.semibold)
             }
             .padding(12)
-            .background(Color.purple)
+            .background(character.auraColor) // Usa a cor da aura como fundo
         }
+        .background(Color.white)
         .cornerRadius(10)
+        .shadow(color: character.auraColor, radius: 8, x: 0, y: 0) // Efeito de aura com sombra
         .overlay(
             RoundedRectangle(cornerRadius: 10)
                 .stroke(Color.gray.opacity(0.5), lineWidth: 1)
         )
         .padding()
+        .onTapGesture {
+            if character.alternateForm != nil {
+                withAnimation(.spring()) {
+                    isFlipped.toggle()
+                }
+            }
+        }
     }
 }
 
